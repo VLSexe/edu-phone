@@ -20,8 +20,9 @@ classDiagram
     }
 
     class iPhone {
-        +ReprodutorMusical()
-        +AparelhoTelefonico()
-        +NavegadorInternet()
     }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
 ```
